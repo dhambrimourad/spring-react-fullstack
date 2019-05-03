@@ -8,5 +8,6 @@ import ca.levio.ppmtool.domain.Project;
 public interface ProjectService {
 
 	public Project saveProject(Project project);
+	public Project findProjectByIdentifier(String projectId);
 	
 }
