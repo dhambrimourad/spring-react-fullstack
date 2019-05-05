@@ -9,5 +9,7 @@ public interface ProjectService {
 
 	public Project saveProject(Project project);
 	public Project findProjectByIdentifier(String projectId);
+	public Iterable<Project> findAllProjects();
+	public void deleteProjectByIdentifier(String projectId);
 	
 }
